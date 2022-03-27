@@ -1,11 +1,8 @@
 package hello.springadvanced.trace.logtrace;
 
-import hello.springadvanced.trace.TraceId;
-import hello.springadvanced.trace.TraceStatus;
-import lombok.Data;
+import hello.springadvanced.template.trace.TraceStatus;
+import hello.springadvanced.template.trace.logtrace.FieldLogTrace;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class FieldLogTraceTest {
 

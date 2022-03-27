@@ -1,8 +1,8 @@
 package hello.springadvanced.trace;
 
+import hello.springadvanced.template.trace.HelloTraceV2;
+import hello.springadvanced.template.trace.TraceStatus;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class HelloTraceV2Test {
 

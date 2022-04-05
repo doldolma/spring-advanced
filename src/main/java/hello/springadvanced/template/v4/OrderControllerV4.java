@@ -1,6 +1,6 @@
 package hello.springadvanced.template.v4;
 
-import hello.springadvanced.template.trace.logtrace.LogTrace;
+import hello.springadvanced.template.trace.logtrace.TemplateLogTrace;
 import hello.springadvanced.template.trace.template.AbstractTemplate;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderControllerV4 {
 
     private final OrderServiceV4 orderService;
-    private final LogTrace trace;
+    private final TemplateLogTrace trace;
 
     @GetMapping("/v4/request")
     public String request(String itemId) {

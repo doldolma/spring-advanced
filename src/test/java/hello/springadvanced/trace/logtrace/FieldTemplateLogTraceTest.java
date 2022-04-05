@@ -1,12 +1,12 @@
 package hello.springadvanced.trace.logtrace;
 
 import hello.springadvanced.template.trace.TraceStatus;
-import hello.springadvanced.template.trace.logtrace.FieldLogTrace;
+import hello.springadvanced.template.trace.logtrace.FieldTemplateLogTrace;
 import org.junit.jupiter.api.Test;
 
-class FieldLogTraceTest {
+class FieldTemplateLogTraceTest {
 
-    FieldLogTrace trace = new FieldLogTrace();
+    FieldTemplateLogTrace trace = new FieldTemplateLogTrace();
 
     @Test
     void begin_env_level2() {

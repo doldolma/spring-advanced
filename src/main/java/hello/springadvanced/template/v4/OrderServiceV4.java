@@ -1,6 +1,6 @@
 package hello.springadvanced.template.v4;
 
-import hello.springadvanced.template.trace.logtrace.LogTrace;
+import hello.springadvanced.template.trace.logtrace.TemplateLogTrace;
 import hello.springadvanced.template.trace.template.AbstractTemplate;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class OrderServiceV4 {
     private final OrderRepositoryV4 orderRepository;
-    private final LogTrace trace;
+    private final TemplateLogTrace trace;
 
     public void orderItem(String itemId) {
 

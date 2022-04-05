@@ -1,12 +1,12 @@
 package hello.springadvanced.trace.logtrace;
 
 import hello.springadvanced.template.trace.TraceStatus;
-import hello.springadvanced.template.trace.logtrace.ThreadLocalLogTrace;
+import hello.springadvanced.template.trace.logtrace.ThreadLocalTemplateLogTrace;
 import org.junit.jupiter.api.Test;
 
-class ThreadLocalLogTraceTest {
+class ThreadLocalTemplateLogTraceTest {
 
-    ThreadLocalLogTrace trace = new ThreadLocalLogTrace();
+    ThreadLocalTemplateLogTrace trace = new ThreadLocalTemplateLogTrace();
 
 
     @Test

@@ -5,7 +5,7 @@ import hello.springadvanced.template.trace.TraceStatus;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class ThreadLocalLogTrace implements LogTrace{
+public class ThreadLocalTemplateLogTrace implements TemplateLogTrace {
 
     private static final String START_PREFIX = "-->";
     private static final String COMPLETE_PREFIX = "<--";

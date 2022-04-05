@@ -1,14 +1,14 @@
 package hello.springadvanced.template.v5;
 
 import hello.springadvanced.template.trace.callback.TraceTemplate;
-import hello.springadvanced.template.trace.logtrace.LogTrace;
+import hello.springadvanced.template.trace.logtrace.TemplateLogTrace;
 import org.springframework.stereotype.Repository;
 @Repository
 public class OrderRepositoryV5 {
 
     private final TraceTemplate template;
 
-    public OrderRepositoryV5(LogTrace trace) {
+    public OrderRepositoryV5(TemplateLogTrace trace) {
         this.template = new TraceTemplate(trace);
     }
 

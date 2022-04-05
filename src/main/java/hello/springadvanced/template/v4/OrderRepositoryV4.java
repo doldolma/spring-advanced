@@ -1,6 +1,6 @@
 package hello.springadvanced.template.v4;
 
-import hello.springadvanced.template.trace.logtrace.LogTrace;
+import hello.springadvanced.template.trace.logtrace.TemplateLogTrace;
 import hello.springadvanced.template.trace.template.AbstractTemplate;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 @RequiredArgsConstructor
 public class OrderRepositoryV4 {
 
-    private final LogTrace trace;
+    private final TemplateLogTrace trace;
 
     public void save(String itemId) { //저장 로직
 

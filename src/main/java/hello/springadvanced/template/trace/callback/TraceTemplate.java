@@ -1,14 +1,14 @@
 package hello.springadvanced.template.trace.callback;
 
 import hello.springadvanced.template.trace.TraceStatus;
-import hello.springadvanced.template.trace.logtrace.LogTrace;
+import hello.springadvanced.template.trace.logtrace.TemplateLogTrace;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class TraceTemplate {
-    private final LogTrace trace;
+    private final TemplateLogTrace trace;
 
-    public TraceTemplate(LogTrace trace){
+    public TraceTemplate(TemplateLogTrace trace){
         this.trace = trace;
     }
 

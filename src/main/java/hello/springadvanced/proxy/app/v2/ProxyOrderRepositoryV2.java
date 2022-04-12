@@ -1,5 +1,7 @@
 package hello.springadvanced.proxy.app.v2;
 
+import hello.springadvanced.template.trace.TraceId;
+
 public class ProxyOrderRepositoryV2 {
 
     public void save(String itemId) {
@@ -15,5 +17,9 @@ public class ProxyOrderRepositoryV2 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public void save(TraceId traceId, String itemId){
+        sleep(1000);
     }
 }

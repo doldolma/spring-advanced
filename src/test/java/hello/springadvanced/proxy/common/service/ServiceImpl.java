@@ -3,7 +3,7 @@ package hello.springadvanced.proxy.common.service;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class ServiceImple implements ServiceInterface{
+public class ServiceImpl implements ServiceInterface{
     @Override
     public void find() {
         log.info("find 호출");

@@ -14,7 +14,6 @@ public class AppV1Config {
     @Bean
     public ProxyOrderControllerV1 proxyOrderControllerV1() {
         return new ProxyOrderControllerV1Impl(proxyOrderServiceV1());
-
     }
 
     @Bean
